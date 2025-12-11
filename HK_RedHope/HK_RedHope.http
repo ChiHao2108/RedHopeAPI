@@ -1,0 +1,6 @@
+@HK_RedHope_HostAddress = http://localhost:5064
+
+GET {{HK_RedHope_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

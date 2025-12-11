@@ -1,0 +1,428 @@
+[
+  {
+    "ContainingType": "HK_RedHope.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HK_RedHope.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HK_RedHope.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignManagementController",
+    "Method": "EndRegistration",
+    "RelativePath": "api/DonationCampaignManagement/{donationId}/end-donation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignManagementController",
+    "Method": "GetRegisteredUsers",
+    "RelativePath": "api/DonationCampaignManagement/{donationId}/list-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignManagementController",
+    "Method": "CreateDonation",
+    "RelativePath": "api/DonationCampaignManagement/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HK_RedHope.DTOs.CreateDonationDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignManagementController",
+    "Method": "DeleteDonation",
+    "RelativePath": "api/DonationCampaignManagement/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignManagementController",
+    "Method": "FilterDonations",
+    "RelativePath": "api/DonationCampaignManagement/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "HK_RedHope.DTOs.DonationFilterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignManagementController",
+    "Method": "GetDonations",
+    "RelativePath": "api/DonationCampaignManagement/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignManagementController",
+    "Method": "UpdateDonation",
+    "RelativePath": "api/DonationCampaignManagement/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HK_RedHope.DTOs.UpdateDonationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignRegisterController",
+    "Method": "CancelDonation",
+    "RelativePath": "api/DonationCampaignRegister/cancel/{donationRecordId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donationRecordId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignRegisterController",
+    "Method": "FilterDonations",
+    "RelativePath": "api/DonationCampaignRegister/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "HK_RedHope.DTOs.DonationFilterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignRegisterController",
+    "Method": "GetDonations",
+    "RelativePath": "api/DonationCampaignRegister/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignRegisterController",
+    "Method": "Register",
+    "RelativePath": "api/DonationCampaignRegister/register/{donationId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignResultController",
+    "Method": "GetRegisteredUsers",
+    "RelativePath": "api/DonationCampaignResult/{donationId}/list-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignResultController",
+    "Method": "MarkNotArrived",
+    "RelativePath": "api/DonationCampaignResult/cancel/{donationRecordId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donationRecordId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.DonationCampaignResultController",
+    "Method": "UpdateBloodTest",
+    "RelativePath": "api/DonationCampaignResult/update/{donationRecordId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donationRecordId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HK_RedHope.DTOs.ExaminationUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.ProfileController",
+    "Method": "GetMyProfile",
+    "RelativePath": "api/Profile/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.ProfileController",
+    "Method": "GetDonationHistory",
+    "RelativePath": "api/Profile/record-donation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.ProfileController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Profile/update-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HK_RedHope.DTOs.UpdateProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.ProfileReviewController",
+    "Method": "ApproveUser",
+    "RelativePath": "api/ProfileReview/approve/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.ProfileReviewController",
+    "Method": "GetApprovedUsers",
+    "RelativePath": "api/ProfileReview/approved-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.ProfileReviewController",
+    "Method": "GetPendingUsers",
+    "RelativePath": "api/ProfileReview/pending-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.ProfileReviewController",
+    "Method": "RejectUser",
+    "RelativePath": "api/ProfileReview/reject/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.ProfileReviewController",
+    "Method": "GetRejectedUsers",
+    "RelativePath": "api/ProfileReview/rejected-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.UserManagementController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/UserManagement/all-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.UserManagementController",
+    "Method": "AssignAdminRole",
+    "RelativePath": "api/UserManagement/assign-Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HK_RedHope.Controllers.UserManagementController\u002BAssignRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.UserManagementController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/UserManagement/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.UserManagementController",
+    "Method": "GetDonationHistoryForAdmin",
+    "RelativePath": "api/UserManagement/record-donation/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HK_RedHope.Controllers.UserManagementController",
+    "Method": "GetUserDetail",
+    "RelativePath": "api/UserManagement/user-detail/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
