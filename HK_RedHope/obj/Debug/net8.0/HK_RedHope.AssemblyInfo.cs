@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HK_RedHope")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8a9b91e9f7c6834bcbcb87ec4735be2685ca150")]
 [assembly: System.Reflection.AssemblyProductAttribute("HK_RedHope")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HK_RedHope")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -81,12 +81,12 @@ namespace HK_RedHope.Controllers
             var roles = await _userManager.GetRolesAsync(user);
             bool isAdminOrDoctor = roles.Contains("Admin") || roles.Contains("Doctor");
 
-            if (!isAdminOrDoctor && !user.IsApproved)
+            if (!isAdminOrDoctor && user.IsRejected)
             {
-                if (user.IsRejected)
-                    return BadRequest(new { message = "Hồ sơ của bạn đã bị từ chối. Không thể xem danh sách." });
-
-                return BadRequest(new { message = "Hồ sơ của bạn chưa được duyệt. Vui lòng chờ admin phê duyệt." });
+                return BadRequest(new
+                {
+                    message = "Hồ sơ của bạn đã bị từ chối. Không thể xem danh sách."
+                });
             }
 
             var list = await _context.DonationBloods

@@ -10,7 +10,7 @@ namespace HK_RedHope.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,Doctor")]
     public class DonationCampaignManagementController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

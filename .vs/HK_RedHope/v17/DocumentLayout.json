@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Documents\\HK10\\Chuy\u00EAn \u0111\u1EC1 t\u1ED1t nghi\u1EC7p 1\\HK_RedHope\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|c:\\users\\admin\\downloads\\hk_redhope\\hk_redhope\\controllers\\donationcampaignregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|c:\\users\\admin\\onedrive\\documents\\hk10\\chuy\u00EAn \u0111\u1EC1 t\u1ED1t nghi\u1EC7p 1\\hk_redhope\\hk_redhope\\controllers\\donationcampaignregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|solutionrelative:hk_redhope\\controllers\\donationcampaignregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|c:\\users\\admin\\downloads\\hk_redhope\\hk_redhope\\controllers\\donationcampaignmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|c:\\users\\admin\\onedrive\\documents\\hk10\\chuy\u00EAn \u0111\u1EC1 t\u1ED1t nghi\u1EC7p 1\\hk_redhope\\hk_redhope\\controllers\\donationcampaignmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|solutionrelative:hk_redhope\\controllers\\donationcampaignmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|c:\\users\\admin\\downloads\\hk_redhope\\hk_redhope\\controllers\\donationcampaignresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|solutionrelative:hk_redhope\\controllers\\donationcampaignresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|c:\\users\\admin\\downloads\\hk_redhope\\hk_redhope\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|solutionrelative:hk_redhope\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|c:\\users\\admin\\downloads\\hk_redhope\\hk_redhope\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13DAE7C6-0A3D-47FF-99D7-48AE82234BE7}|HK_RedHope\\HK_RedHope.csproj|solutionrelative:hk_redhope\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DonationCampaignRegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignRegisterController.cs",
-              "RelativeDocumentMoniker": "HK_RedHope\\Controllers\\DonationCampaignRegisterController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignRegisterController.cs",
-              "RelativeToolTip": "HK_RedHope\\Controllers\\DonationCampaignRegisterController.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAAowNwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T09:52:30.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\UserManagementController.cs",
-              "RelativeDocumentMoniker": "HK_RedHope\\Controllers\\UserManagementController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\UserManagementController.cs",
-              "RelativeToolTip": "HK_RedHope\\Controllers\\UserManagementController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T07:13:24.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DonationCampaignResultController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignResultController.cs",
-              "RelativeDocumentMoniker": "HK_RedHope\\Controllers\\DonationCampaignResultController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignResultController.cs",
-              "RelativeToolTip": "HK_RedHope\\Controllers\\DonationCampaignResultController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T07:12:47.907Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DonationCampaignManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\HK10\\Chuy\u00EAn \u0111\u1EC1 t\u1ED1t nghi\u1EC7p 1\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignManagementController.cs",
               "RelativeDocumentMoniker": "HK_RedHope\\Controllers\\DonationCampaignManagementController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignManagementController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\HK10\\Chuy\u00EAn \u0111\u1EC1 t\u1ED1t nghi\u1EC7p 1\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignManagementController.cs",
               "RelativeToolTip": "HK_RedHope\\Controllers\\DonationCampaignManagementController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAkwNUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T07:12:31.304Z"
+              "WhenOpened": "2025-12-24T18:26:22.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "HK_RedHope\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\HK_RedHope\\HK_RedHope\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "HK_RedHope\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAAAMMAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DonationCampaignRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\HK10\\Chuy\u00EAn \u0111\u1EC1 t\u1ED1t nghi\u1EC7p 1\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignRegisterController.cs",
+              "RelativeDocumentMoniker": "HK_RedHope\\Controllers\\DonationCampaignRegisterController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\HK10\\Chuy\u00EAn \u0111\u1EC1 t\u1ED1t nghi\u1EC7p 1\\HK_RedHope\\HK_RedHope\\Controllers\\DonationCampaignRegisterController.cs",
+              "RelativeToolTip": "HK_RedHope\\Controllers\\DonationCampaignRegisterController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T07:11:53.416Z"
+              "WhenOpened": "2025-12-24T18:26:12.847Z",
+              "EditorCaption": ""
             }
           ]
         }
